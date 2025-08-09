@@ -171,8 +171,7 @@ class _TaskformState extends State<Taskform> {
             colorScheme: const ColorScheme.light(
               primary: Colors.blue,
               onPrimary: Colors.white,
-            ),
-            dialogBackgroundColor: Colors.white,
+            ), dialogTheme: DialogThemeData(backgroundColor: Colors.white),
           ),
           child: child!,
         );

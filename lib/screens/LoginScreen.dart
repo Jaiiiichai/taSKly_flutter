@@ -4,6 +4,8 @@ import 'package:taskly/services/task_api_service.dart';
 import 'package:taskly/widgets/CustomButton.dart';
 
 class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
+
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }

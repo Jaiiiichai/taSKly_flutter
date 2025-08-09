@@ -45,7 +45,6 @@ class _RegisterscreenState extends State<Registerscreen> {
       Future.delayed(Duration(seconds: 2), () {
         Navigator.pushReplacementNamed(context, '/');
       });
-    } catch (e) {
     } finally {
       setState(() {
         isLoading = false;

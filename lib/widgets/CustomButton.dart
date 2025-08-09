@@ -11,7 +11,7 @@ class CustomButton extends StatelessWidget {
   final double height;
 
   const CustomButton({
-    Key? key,
+    super.key,
     required this.text,
     required this.onPressed,
     this.color = Colors.blue,
@@ -20,7 +20,7 @@ class CustomButton extends StatelessWidget {
     this.paddingVertical = 15.0,
     this.width = double.infinity,
     this.height = 50.0,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
